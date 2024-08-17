@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media query</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+
+nav{display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+background-color: aqua;}
+
+.nav-item{
+  display: inline;
+  padding: 20px;
+  font-size: 1rem;
+}
+nav ul li a{
+  text-decoration: none;
+}
+    
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .box-1 {
+        background-color: chartreuse;
+        color: antiquewhite;
+        padding: 1rem;
+      }
+      .box-2 {
+        background-color: purple;
+        color: black;
+        padding: 1rem;
+      }
+      /* @media screen and (min-width:780px) {
+        .container {
+          display: flex;
+        }
+        .box-1 {
+          background-color: crimson;
+        }
+      } */
+
+
+      /* footer */
+.cont{
+  display: flex;
+  justify-content: space-around;
+  gap:40px;
+  background-color:rgb(239, 8, 46);
+  color: white;
+}
+.hadding{
+  color: blue;
+}
+.form{
+  background-color: chartreuse;
+  justify-content: space-around;
+      gap:50px;
+      background-color: black;
+      color: white;}
+
+</style>
+  </head>
+  <body>
+    <header>
+    <nav>
+      <a href="#"><img src="image/hhh.jpeg" width="90" alt=""/></a>
+      <ul class="navbar">
+        <li class="nav-item"><a href="home.html">home</a></li>
+        <li class="nav-item"><a href="about.html">about</a></li>
+        <li class="nav-item"><a href="service.html">service</a></li>
+        <li class="nav-item"><a href="career.html">career</a></li>
+        <li class="nav-item"><a href="settelement.html">settelement</a></li>
+        <li class="nav-item"><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <div class="container">
+      <div class="box-1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          quis numquam, aperiam vitae fuga dicta nemo dolorem explicabo iure
+          repudiandae nihil doloribus, animi voluptatem totam hic? In voluptatem
+          inventore atque?
+        </p>
+      </div>
+      <div class="box-2">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum non
+          inventore accusamus recusandae veritatis consectetur voluptates
+          aperiam architecto eveniet repellat ut deleniti dignissimos incidunt
+          voluptatem, ratione exercitationem iusto, quibusdam modi.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="cont">
+        <div>
+          <h3 class="hadding">contact us</h3>
+          <hr>
+        <p>Er strong</p>
+          <p><strong>Tel:</strong>9817077229,333332555511</p>
+          <p><strong>Email:</strong>jyotisunda06@gmail.com</p>
+          <br>
+          
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-whatsapp"></i>
+          <i class="fa fa-twitter"></i>
+<p>@copyright to be finding in all that to be taking</p>
+</div>
+          
+        </div>
+        <br />
+        <div>
+          <h3 class="hadding">important link</h3>
+          <hr />
+
+          <ul class="list-group">
+            <li class="list-group-item">BOOK SERVICE</li>
+            <hr />
+            <li class="list-group-item">ONLINE APPORTMENT</li>
+            <hr />
+            <li class="list-group-item">BUSINESS CARD</li>
+            <hr />
+          </ul>
+        </div>
+        <div>
+        <ul class="form">
+          <h3 class="hadding">enquiry now</h3>
+         <form action="">
+          <label for="">name</label><input required><br> <br>
+          <label for="fname">First name:</label><br> <br>
+          <input type="text" id="fname" name="fname" value="John"><br><br>
+          <label for="lname">Last name:</label><br><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+         </form>
+        </ul>
+      </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
